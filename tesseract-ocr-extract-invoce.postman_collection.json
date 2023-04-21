@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "aaa6ae56-1a0c-4c1b-8219-6bd60cfc63d0",
+		"name": "tesseract-ocr-extract-invoce",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11938627"
+	},
+	"item": [
+		{
+			"name": "extract-invoice",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/C:/Users/elton/Downloads/backend_engineer/backend_engineer/input/1.jpg"
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/C:/Users/elton/Downloads/backend_engineer/backend_engineer/input/2.PNG",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/extract-invoice",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"extract-invoice"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
