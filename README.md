@@ -35,7 +35,7 @@ This will start the API server at **http://localhost:8080**.
 4. Send a POST request to the /extract-invoice endpoint with an image of an invoice in the request payload. The image should be in JPEG or PNG format.
 
 ## Postman Colletion:
-I've already added the Postman collection for testing purpose, you can use the same. Just change the images.
+I've already added the Postman collection(**tesseract-ocr-extract-invoce.postman_collection.json**) for testing purpose, you can use the same. Just change the images.
 
 ## License
 This project is licensed under the terms of the MIT license.
